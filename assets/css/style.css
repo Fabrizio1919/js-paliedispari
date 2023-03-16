@@ -1,8 +1,36 @@
 .esercizio1 {
     text-align: center;
+    border: 2px solid black;
+    width: 20%;
+    margin: auto;
+    padding: 5px;
+    background-color: beige;
+    margin-top:10rem;
+    transition-duration: 1s;
+    transform: scale(1.1);
+    background-color: rgb(255, 246, 246);
 }
 
 .esercizio2 {
     text-align: center;
+    border: 2px solid black;
+    width: 20%;
+    margin: auto;
+    padding: 5px;
+    background-color: beige;
     margin-top: 5rem;
+    transition-duration: 1s;
+    transform: scale(1.1);
+    background-color: rgb(255, 246, 246);
 }
+
+span:hover {
+    font-size: 20px;
+    transition-duration: .8s;
+}
+
+button:hover {
+    font-size: 30px;
+    transition-duration: .8s;
+}
+
