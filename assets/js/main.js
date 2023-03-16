@@ -30,12 +30,12 @@ function invertiParola(parola) {
 
 function gioca() {
 
-    let pariOdispari = prompt('Pari o Dispari ?');
-    let numeroDelUtente = parseInt(prompt('Inserisci un numero da 1 a 5'));
-    console.log(`Hai scelto ${pariOdispari}.`, `Il tuo numero scelto è ${numeroDelUtente}`);
-    
+    let pariDispari = prompt('Pari o Dispari ?');
+    let numeroUtente = parseInt(prompt('Inserisci un numero da 1 a 5'));
+    console.log(`Hai scelto ${pariDispari}.`, `Il tuo numero scelto è ${numeroUtente}`);
+
     function risultato(pariDispari, numeroUtente) {
-        
+
         let randomComputerNumber = Math.floor(Math.random() * 5 + 1);
         console.log(`Il numero scelto dal computer è ${randomComputerNumber}`);
         let somma = numeroUtente + randomComputerNumber;
@@ -53,7 +53,7 @@ function gioca() {
 
     }
 
-    risultato(pariOdispari, numeroDelUtente);
+    risultato(pariDispari, numeroUtente);
 
 }
 
